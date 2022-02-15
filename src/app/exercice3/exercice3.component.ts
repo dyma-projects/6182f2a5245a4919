@@ -2,10 +2,12 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-exercice3',
-  template: '<p> p1 </p> <p> p2 </p>',
+  templateUrl: './exercice3.component.html',
   styleUrls: ['./exercice3.component.css']
 })
 export class Exercice3Component implements OnInit {
+
+  public statut = true;
 
   constructor() { }
 
